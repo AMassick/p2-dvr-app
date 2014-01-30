@@ -3,14 +3,69 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>P2 : DVR APP</title>
+    <title>P2: DVR APP</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
     
-    
+    <!-- ON/OFF CONTROLS -->
+    <div class="row">
+      <div class="small-12 columns">
+
+        <a href="#" class="button">ON/OFF</a>
+
+      </div>
+    </div>
+
+    <!-- VOLUME & CHANNEL -->
+    <div class="row">
+      <!-- VOLUME -->
+      <div class="small-6 columns">
+        <div class="button-bar">
+          <ul class="button-group radius round">
+            <li><a href="#" class="tiny button secondary">VOL +</a></li>
+            <li><a href="#" class="tiny button secondary">VOL -</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- CHANNEL -->
+       <div class="small-6 columns">
+        <div class="button-bar">
+          <ul class="button-group radius round">
+            <li><a href="#" class="tiny button secondary">CHAN +</a></li>
+            <li><a href="#" class="tiny button secondary">CHAN -</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- END VOLUME AND CHANNEL -->
+
+    <!-- RECORD & PLAY -->
+    <div class="row">
+      <div class="small-6 columns">
+        <dl class="accordion" data-accordion>
+        <dd>
+          <a href="#panel1">Record</a>
+            <div id="panel1" class="content active">
+              <h3>Record</h3>
+            </div>
+        </dd>
+        <dd>
+          <a href="#panel2">Play</a>
+            <div id="panel2" class="content">
+              <h3>Play</h3>
+            </div>
+        </dd>
+        </dd>
+    </dl>
+
+
+      </div>
+    </div>
+
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
